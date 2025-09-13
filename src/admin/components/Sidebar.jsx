@@ -18,6 +18,7 @@ export default function Sidebar() {
     { name: "Internships", path: "/admin/internships" },
     { name: "Students", path: "/admin/students" },
          { name: "ActionStudents", path: "/admin/ActionStudents" },
+         { name: "CompanyRequests", path: "/admin/admincompanyrequests" },
     { name: "Companies", path: "/admin/companies" },
      { name: "Actioncompany", path: "/admin/Actioncompany" },
     { name: "Applications", path: "/admin/applications" },

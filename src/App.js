@@ -16,6 +16,7 @@ import Actioncompany from "./admin/Actioncompany"
 import ActionStudents from "./admin/ActionStudents"
 import AdminReports from "./admin/AdminReports";
 import AdminProfile from "./admin/AdminProfile"
+import AdminCompanyRequests from "./admin/AdminCompanyRequests"
 
 import LandingPage from "./students/LandingPage"
 import LoginPage from "./students/LoginPage"
@@ -76,6 +77,7 @@ export default function App() {
               <Route path="internships" element={<Internships />} />
               <Route path="students" element={<Students />} />
               <Route path="actionstudents" element={<ActionStudents />} />
+              <Route path="admincompanyrequests" element={<AdminCompanyRequests />}/>
               <Route path="companies" element={<Companies />} />
               <Route path="actioncompany" element={<Actioncompany />} />
               { <Route path="applications" element={<ApplicationsPage />} /> }

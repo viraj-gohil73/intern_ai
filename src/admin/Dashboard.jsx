@@ -1,13 +1,14 @@
 // src/admin/Dashboard.jsx
-import { Briefcase, Users, Building2, FileText } from "lucide-react";
+import { Briefcase, Users, Building2, FileText , ClockAlert} from "lucide-react";
 
 export default function Dashboard() {
   // Dummy Data with Icons
   const stats = [
-    { title: "Total Internships", value: 24, color: "bg-blue-500", icon: <Briefcase size={28} /> },
-    { title: "Total Students", value: 150, color: "bg-green-500", icon: <Users size={28} /> },
-    { title: "Total Companies", value: 12, color: "bg-purple-500", icon: <Building2 size={28} /> },
+    { title: "Total Internships", value: 124, color: "bg-blue-500", icon: <Briefcase size={28} /> },
+    { title: "Total Students", value: 450, color: "bg-green-500", icon: <Users size={28} /> },
+    { title: "Total Companies", value: 48, color: "bg-purple-500", icon: <Building2 size={28} /> },
     { title: "Applications", value: 320, color: "bg-orange-500", icon: <FileText size={28} /> },
+    { title: "Compnay Requests", value: 13, color: "bg-red-500", icon: <ClockAlert size={28} /> },
   ];
 
   return (
